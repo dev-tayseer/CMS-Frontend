@@ -1,0 +1,366 @@
+// * car header component  
+span{
+    display: inline-block !important;
+}
+.car-text{
+    font-weight: 700;
+    font-size: 12px;
+    color: #4788C6;
+}
+.car-details{
+    font-weight: 400;
+    font-size: 12px;
+    color: #A0A8B3;
+}   
+// {/* end car header component  
+
+// {/* car details row component */}
+
+.car-details-text{
+    font-weight: 800;
+    font-size: 24px;
+    color: #1F2733;
+    line-height: 40px;
+}
+
+.btn-basic{
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn-prim-color{
+    color: #4788C6;
+}
+
+
+.btn-basic-color{
+color:  #B42318;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn{
+        margin-top: 10px !important;
+        width: 200px !important;
+    }
+}
+
+.rowDetails{
+    border-bottom: 1px solid #E5E7EB;
+}
+// .hrRowDetails{
+//     background-color: #E5E7EB !important;
+//     // color: #E5E7EB !important;
+// }
+
+
+// {/* end car details row component */}
+
+
+/*end car details row component */
+.firstHalfCarData{
+    border: 1px solid #D2D6DB;
+    border-radius: 8px;
+    
+}
+.secondHalfCarData{
+    border: 1px solid #D2D6DB;
+    border-radius: 8px;
+}
+.thirdHalfCarData{
+    border: 1px solid #D2D6DB;
+    border-radius: 8px;
+}
+
+.car-data-text{
+    color: #1F2733;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.car-panel-text{
+    color: #1F2733;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.arabic-letter-car{
+    border-bottom: 1px solid black;}
+
+.arabic-number-car{
+    border-left: 1px solid black;
+
+}
+.english-letter-car{
+    border-bottom: 1px solid black;
+
+
+}
+.english-number-car{
+    border-bottom: 1px solid black;
+
+}
+.firstDiv{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+.secondDiv{
+    // border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.panel-text{
+    color: #1F2733;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.carDataInner{
+    background-color: white;
+    border-radius: 8px;
+
+}
+.spanCard{
+    width: 100%;
+}
+.spanCardText{
+    font-weight: 700;
+    font-size: 16px;
+    color: #1F2733;
+}
+.spanCardHeader{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C737F;
+}
+// document attached component 
+// .spanCardDocument{
+//     width: 50%;
+// }
+.spanCardDocumentText{
+    font-weight: 400;
+    font-size: 14px;
+    color: #A0A8B3;
+}
+.spanCardDocumentHeader{
+    font-weight: 700;
+    font-size: 14px;
+    color: #1F2733;
+}
+.spanCardDocumentLogo{
+    margin-top:auto !important;
+    margin-bottom:auto !important;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+// end document attached component 
+/* end  car details component */
+
+
+
+// restoring details 
+
+.car-restoring-text{
+    color: #1F2733;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.carRestoreInner{
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.spanRestoreHeader{
+    font-weight: 400;
+font-size: 14px;
+color: #4D5761;
+}
+
+.spanRestoreText{
+font-weight: 700;
+font-size: 12px;
+color: white !important;
+}
+
+.btn-restore-color-bg{
+    font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #4788C6;
+width: 90%;
+
+}
+
+.btn-restore-color-bg:hover{
+font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #4788C6;
+width: 90%;
+
+}
+
+.btn-restore-color-bg2{
+    font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #CC6610;
+width: 90%;
+
+}
+
+.btn-restore-color-bg2:hover{
+font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #CC6610;
+width: 90%;
+
+}
+
+.btn-restore-color-bg3{
+    font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #BE842C;
+width: 90%;
+
+}
+
+.btn-restore-color-bg3:hover{
+font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #05603A;
+width: 90%;
+
+}
+.btn-restore-color-bg4{
+    font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #05603A;
+width: 90%;
+
+}
+
+.btn-restore-color-bg4:hover{
+font-weight: 700;
+font-size: 12px;
+color: white !important;
+background-color: #05603A;
+width: 90%;
+
+}
+.btn-restore-color-gray-bg{
+    font-weight: 800;
+font-size: 14px;
+color: #A6223D;
+background: #FFE0E6;
+width: 90%;
+
+}
+
+.btn-restore-color-gray-bg:hover{
+font-weight: 800;
+font-size: 14px;
+color: #A6223D;
+background: #FFE0E6;
+width: 90%;
+
+}
+.btn-restore-color-gray-bg2{
+    font-weight: 800;
+font-size: 14px;
+color: #A6223D;
+background: #FFE0E6;
+width: 90%;
+
+}
+
+.btn-restore-color-gray-bg2:hover{
+font-weight: 800;
+font-size: 14px;
+color: #A6223D;
+background: #FFE0E6;
+width: 90%;
+
+}
+.btn-restore-color-gray-bg3{
+    font-weight: 800;
+font-size: 14px;
+color: #05603A;
+background: #ECFDF3;
+width: 90%;
+
+}
+
+.btn-restore-color-gray-bg5{
+    font-weight: 800;
+font-size: 14px;
+color: #05603A;
+background: #F3F4F6;
+width: 90%;
+
+}
+
+.btn-restore-color-gray-bg6{
+    font-weight: 800;
+font-size: 14px;
+color: #05603A;
+background: #E6FFF1;
+width: 90%;
+
+}
+.btn-restore-color-gray-bg7{
+    font-weight: 800;
+font-size: 14px;
+color: #05603A;
+background: #F3F4F6;
+width: 90%;
+
+}
+.btn-restore-color-gray-bg3:hover{
+font-weight: 800;
+font-size: 14px;
+color: #05603A;
+background: #ECFDF3;
+width: 90%;
+
+}
+.spanRestoreName{
+    font-weight: 700;
+font-size: 16px;
+color: #1F2733;
+}
+
+.spanRestoreNameUnavailable{
+    font-weight: 400;
+font-size: 14px;
+color: #A0A8B3;
+}
+.spanRestoreDate{
+    font-weight: 400;
+font-size: 14px;
+color: #4D5761;
+}
+
+.spanRestoreDate2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #1F2733;
+}
+
+.image-content{
+    width: 90% !important;
+}
+
+// end restoring details

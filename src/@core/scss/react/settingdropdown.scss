@@ -1,0 +1,42 @@
+.nav .dropdown-toggle:not(.active)::after {
+    background-image: none !important;
+}
+
+.dropdown-toggle::after {
+    background-image: none !important;
+}
+
+.imagesrc{
+    width: 30px;
+}
+
+#dropdown-basic1.backgroundsetting{
+    background-color: #4C4C4C !important
+
+}
+
+#dropdown-basic1 {
+    background-color: #4C4C4C  !important;
+    width: 84%;
+}
+
+#dropdown-basic1.show {
+    background-color: #4C4C4C !important
+}
+
+#dropdown-basic1:hover:not(.disabled):not(:disabled) {
+    box-shadow: none !important;
+}
+
+.dropdown-menu[data-popper-placement]:not([data-popper-placement^=top-]) {
+    top: 4rem !important;
+}
+
+.dropdownsetting {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    color: #4788C6;
+
+}

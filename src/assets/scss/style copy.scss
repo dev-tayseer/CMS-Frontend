@@ -1,0 +1,247 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css';
+@font-face {
+    font-family: 'Almarai';
+    src: local('Almarai'), url(../fonts/Almarai/Almarai-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: local('Almarai'), url(../fonts/Almarai/Almarai-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: local('Almarai'), url(../fonts/Almarai/Almarai-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Almarai';
+    src: local('Almarai'), url(../fonts/Almarai/Almarai-Regular.ttf) format('truetype');
+}
+.theme-content{
+	background: #F9FAFB;
+}
+
+.font-Almarai{
+	font-family: 'Almarai';
+}
+
+.f-style-normal{
+	font-style: normal;
+}
+.f-w-300{
+	font-weight: 300;
+}
+.f-w-400{
+	font-weight: 400;
+}
+.f-w-700{
+	font-weight: 700;
+}
+.f-w-800{
+	font-weight: 800!important;
+}
+.f-s-12px{
+	font-size: 12px!important;
+}
+.f-s-14px{
+	font-size: 14px!important;
+}
+
+.f-s-15px{
+	font-size: 15px!important;
+}
+.f-s-16px{
+	font-size: 16px!important;
+}
+.f-s-17px{
+	font-size: 17px;
+}
+
+.f-s-18px{
+	font-size: 18px;
+}
+.f-s-19px{
+	font-size: 19px;
+}
+.f-s-20px{
+	font-size: 20px;
+}
+.f-s-21px{
+	font-size: 21px;
+}
+.f-s-22px{
+	font-size: 22px;
+}
+.f-s-23px{
+	font-size: 23px;
+}
+.f-s-24px{
+	font-size: 24px;
+}
+.f-s-25px{
+	font-size: 25px;
+}
+.line-h-18px{
+	line-height: 20px;
+}
+
+.blue-color-icon{
+	color: #4788C6!important;
+}
+.blue-color-icon-h:hover{
+	color: #8fabc6!important;
+}
+
+.red-color-icon{
+	color: #B42318!important;
+}
+.red-color-icon-h:hover{
+	color: #b34941!important;
+}
+
+.label-color-black{
+	color:#1F2733;
+}
+.button1{
+	background-color: #4788C6!important;
+	color: #FFFFFF!important;
+	font-family: 'Almarai';
+	font-style: normal;
+	font-weight: 700!important;
+	font-size: 14px!important;
+	height: 40px;
+}
+
+.button-transparent{
+	font-family: 'Almarai';
+font-style: normal;
+font-weight: 700!important;
+font-size: 14px!important;
+color: #4788C6!important;
+background-color: #4789c600!important;
+width: fit-content!important;
+padding: 6px 16px 6px 16px!important;
+border: none!important;
+}
+
+.button-transparent:active,button-transparent:focus{
+	font-family: 'Almarai';
+font-style: normal;
+font-weight: 700!important;
+font-size: 14px!important;
+color: #4788C6!important;
+background-color: #4789c600!important;
+box-shadow: none;
+width: fit-content!important;
+border: none!important;
+}
+
+
+.button-white{
+	font-family: 'Almarai';
+font-style: normal;
+font-weight: 700!important;
+font-size: 14px!important;
+color: #4788C6!important;
+background-color: #4789c600!important;
+width: fit-content!important;
+padding: 6px 16px 6px 16px!important;
+border: 1px solid #4788C6!important;
+}
+
+
+.button-white:active,button-white:focus{
+	font-family: 'Almarai';
+font-style: normal;
+font-weight: 700!important;
+font-size: 14px!important;
+color: #4788C6!important;
+background-color: #4789c600!important;
+box-shadow: none;
+border: 1px solid #4788C6!important;
+}
+
+.button-excel{
+	border: 1px solid #4788C6 !important;
+	border-radius: 4px !important;
+	height: 37px !important;
+	margin-top: 3px !important;
+}
+.border-none {
+	border: none!important;
+}
+
+.color_CC6610{
+	color:#CC6610;
+}
+
+.color_4788C6{
+	color: #4788C6;
+}
+.color_05603A{
+	color: #05603A;;
+}
+
+// toggler button 
+.toggle {
+	--width: 50px;
+	--height: calc(var(--width) / 2);
+	--border-radius: calc(var(--height) / 2);
+	
+	display: inline-block;
+	cursor: pointer;
+	}
+	
+	.toggle__input {
+	display: none;
+	}
+	
+	.toggle__fill {
+	position: relative;
+	width: var(--width);
+	height: var(--height);
+	border-radius: var(--border-radius);
+	background: #E5E7EB;
+	transition: background 0.2s;
+	}
+	
+	.toggle__input:checked ~ .toggle__fill {
+	background: #3261A8;
+	}
+	
+	.toggle__fill::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: var(--height);
+	width: var(--height);
+	background: white ;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	border-radius: var(--border-radius);
+	transition: transform 0.2s;
+	}
+	
+	.toggle__input:checked ~ .toggle__fill::after {
+	transform: translateX(-25px);
+	}
+
+	.leaflet-routing-container{
+		display: none;
+	}
+
+	
