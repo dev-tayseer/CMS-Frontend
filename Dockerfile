@@ -16,7 +16,7 @@ RUN npm install --legacy-peer-deps
 COPY . .
 
 # 👇 هنا نزود الميموري المسموح للبناء
-# ✅ زيادة حجم الذاكرة إلى 6 جيجا
+# ✅ زيادة حجم الذاكرة إلى 3 جيجا
 ENV NODE_OPTIONS="--max-old-space-size=3072"
 
 RUN npm run build

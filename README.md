@@ -94,7 +94,7 @@ services:
       dockerfile: Dockerfile
     container_name: cms_frontend
     ports:
-      - "3000:80"
+      - "3090:80"
     restart: always
 
 
